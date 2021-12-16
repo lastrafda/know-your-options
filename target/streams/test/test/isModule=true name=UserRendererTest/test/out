@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mUserRendererTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Label for user with pronouns contains first name and pronouns[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Label for user without pronouns contains first and last name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- first name is returned if optional user is defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- N/A is returned if optional user is not defined[0m[0m

@@ -1,0 +1,4 @@
+[debug] [know-your-options] Classpath dependencies List()
+[debug] [know-your-options] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'know-your-options' to '/home/jofla/Desktop/scala/exploration/know-your-options/.bloop/know-your-options.json'
+[success] Generated .bloop/know-your-options.json

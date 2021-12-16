@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mOptionsTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [map] returns None if the option is not defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [map] returns a Some if the option is defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [flatMap] returns a None if the parent Option is not defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [flatMap] returns a Some if the parent Option is defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [flatMap] returns a Some if the nested Option is not defined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [filter] returns None if the predicate is false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [filter] returns a user if the predicate is true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [filter] returns None if there is no Some caller[0m[0m

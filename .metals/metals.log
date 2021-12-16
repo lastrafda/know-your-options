@@ -1,0 +1,663 @@
+[0m2021.12.16 02:13:40 INFO  Started: Metals version 0.10.9 in workspace '/home/jofla/Desktop/scala/exploration/know-your-options' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.16 02:13:43 INFO  time: initialize in 2.98s[0m
+[0m2021.12.16 02:13:43 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.16 02:13:49 INFO  running '/home/jofla/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10275936950419107485/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.16 02:13:49 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/project/metals.sbt[0m
+[0m2021.12.16 02:13:49 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/project/project/metals.sbt[0m
+[0m2021.12.16 02:13:49 INFO  skipping build import with status 'Started'[0m
+[0m2021.12.16 02:13:51 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.12.16 02:13:53 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.16 02:13:53 INFO  [info] loading global plugins from /home/jofla/.sbt/1.0/plugins[0m
+[0m2021.12.16 02:13:57 INFO  [info] loading settings for project know-your-options-build-build from metals.sbt ...[0m
+[0m2021.12.16 02:13:57 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project/project[0m
+[0m2021.12.16 02:13:57 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.12.16 02:13:59 INFO  [info] loading settings for project know-your-options-build from metals.sbt ...[0m
+[0m2021.12.16 02:13:59 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project[0m
+[0m2021.12.16 02:14:00 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.12.16 02:14:00 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.12.16 02:14:00 INFO  [success] Generated .bloop/know-your-options-build.json[0m
+[0m2021.12.16 02:14:00 INFO  [success] Total time: 2 s, completed Dec 16, 2021, 2:14:01 AM[0m
+[0m2021.12.16 02:14:01 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.12.16 02:14:03 INFO  [info] loading settings for project know-your-options from build.sbt ...[0m
+[0m2021.12.16 02:14:03 INFO  [info] set current project to know-your-options (in build file:/home/jofla/Desktop/scala/exploration/know-your-options/)[0m
+[0m2021.12.16 02:14:03 INFO  [success] Generated .bloop/know-your-options.json[0m
+[0m2021.12.16 02:14:03 INFO  [success] Generated .bloop/know-your-options-test.json[0m
+[0m2021.12.16 02:14:03 INFO  [success] Total time: 0 s, completed Dec 16, 2021, 2:14:03 AM[0m
+[0m2021.12.16 02:14:04 INFO  time: ran 'sbt bloopInstall' in 14s[0m
+[0m2021.12.16 02:14:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3195843950730822977/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/jofla/Desktop/scala/exploration/know-your-options/.bloop'...
+[0m[32m[D][0m Loading project from '/home/jofla/Desktop/scala/exploration/know-your-options/.bloop/know-your-options.json'
+[0m[32m[D][0m Loading project from '/home/jofla/Desktop/scala/exploration/know-your-options/.bloop/know-your-options-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/jofla/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/jofla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/jofla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/jofla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/jofla/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'know-your-options'
+[0m[32m[D][0m Missing analysis file for project 'know-your-options-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3195843950730822977/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3195843950730822977/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:14:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:14:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher13882912477727111575/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher13882912477727111575/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher13882912477727111575/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:14:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:14:06 INFO  time: Connected to build server in 2.86s[0m
+[0m2021.12.16 02:14:06 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.16 02:14:11 INFO  time: indexed workspace in 4.62s[0m
+[0m2021.12.16 02:14:13 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.16 02:14:14 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/User.scala[0m
+[0m2021.12.16 02:14:16 INFO  time: code lens generation in 1.62s[0m
+[0m2021.12.16 02:14:16 INFO  time: code lens generation in 1.68s[0m
+[0m2021.12.16 02:21:09 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/User.scala[0m
+[0m2021.12.16 02:22:15 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRepository.scala[0m
+[0m2021.12.16 02:24:20 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRepository.scala[0m
+[0m2021.12.16 02:25:22 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRepository.scala[0m
+[0m2021.12.16 02:30:14 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRender.scala[0m
+[0m2021.12.16 02:30:20 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:30:23 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+Dec 16, 2021 2:30:34 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 16, 2021 2:30:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.16 02:30:46 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:31:24 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:31:25 INFO  Deduplicating compilation of know-your-options-test from bsp client 'Metals 0.10.9' (since 17m 19.199s)[0m
+[0m2021.12.16 02:31:25 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:31:26 INFO  time: compiled know-your-options-test in 1.05s[0m
+[0m2021.12.16 02:33:43 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:33:43 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:33:59 INFO  running '/home/jofla/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11576444864228669703/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.16 02:34:01 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.12.16 02:34:02 INFO  [info] loading global plugins from /home/jofla/.sbt/1.0/plugins[0m
+[0m2021.12.16 02:34:02 INFO  [info] loading settings for project know-your-options-build-build from metals.sbt ...[0m
+[0m2021.12.16 02:34:03 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project/project[0m
+[0m2021.12.16 02:34:03 INFO  [info] loading settings for project know-your-options-build from metals.sbt ...[0m
+[0m2021.12.16 02:34:03 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project[0m
+[0m2021.12.16 02:34:06 INFO  [success] Generated .bloop/know-your-options-build.json[0m
+[0m2021.12.16 02:34:06 INFO  [success] Total time: 2 s, completed Dec 16, 2021, 2:34:06 AM[0m
+[0m2021.12.16 02:34:06 INFO  [info] loading settings for project know-your-options from build.sbt ...[0m
+[0m2021.12.16 02:34:06 INFO  [info] set current project to know-your-options (in build file:/home/jofla/Desktop/scala/exploration/know-your-options/)[0m
+[0m2021.12.16 02:34:06 INFO  [success] Generated .bloop/know-your-options-test.json[0m
+[0m2021.12.16 02:34:06 INFO  [success] Generated .bloop/know-your-options.json[0m
+[0m2021.12.16 02:34:06 INFO  [success] Total time: 0 s, completed Dec 16, 2021, 2:34:06 AM[0m
+[0m2021.12.16 02:34:06 INFO  time: ran 'sbt bloopInstall' in 7.7s[0m
+[0m2021.12.16 02:34:06 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.16 02:34:06 INFO  Shut down connection with build server.[0m
+[0m2021.12.16 02:34:06 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.12.16 02:34:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+No more data in the client stdin, exiting...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher11227209514310337163/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher11227209514310337163/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher11227209514310337163/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:34:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:34:07 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher404716004800757803/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher404716004800757803/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher404716004800757803/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:34:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:34:06 INFO  time: Connected to build server in 0.1s[0m
+[0m2021.12.16 02:34:06 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.16 02:34:09 INFO  time: indexed workspace in 2.41s[0m
+[0m2021.12.16 02:34:09 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:34:09 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/User.scala[0m
+[0m2021.12.16 02:34:09 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRepository.scala[0m
+[0m2021.12.16 02:34:11 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.12.16 02:34:11 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:11 INFO  time: compiled know-your-options-test in 0.11s[0m
+[0m2021.12.16 02:34:15 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:15 INFO  time: compiled know-your-options-test in 0.32s[0m
+[0m2021.12.16 02:34:18 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:18 INFO  time: compiled know-your-options-test in 0.24s[0m
+[0m2021.12.16 02:34:28 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:28 INFO  time: compiled know-your-options-test in 0.19s[0m
+[0m2021.12.16 02:34:34 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:34 INFO  time: compiled know-your-options-test in 0.21s[0m
+[0m2021.12.16 02:34:37 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:34:38 INFO  time: compiled know-your-options-test in 1.12s[0m
+[0m2021.12.16 02:34:41 INFO  running '/home/jofla/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16139518511409131087/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.16 02:34:43 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.12.16 02:34:45 INFO  [info] loading global plugins from /home/jofla/.sbt/1.0/plugins[0m
+[0m2021.12.16 02:34:45 INFO  [info] loading settings for project know-your-options-build-build from metals.sbt ...[0m
+[0m2021.12.16 02:34:46 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project/project[0m
+[0m2021.12.16 02:34:46 INFO  [info] loading settings for project know-your-options-build from metals.sbt ...[0m
+[0m2021.12.16 02:34:46 INFO  [info] loading project definition from /home/jofla/Desktop/scala/exploration/know-your-options/project[0m
+[0m2021.12.16 02:34:48 INFO  [success] Generated .bloop/know-your-options-build.json[0m
+[0m2021.12.16 02:34:48 INFO  [success] Total time: 2 s, completed Dec 16, 2021, 2:34:48 AM[0m
+[0m2021.12.16 02:34:48 INFO  [info] loading settings for project know-your-options from build.sbt ...[0m
+[0m2021.12.16 02:34:48 INFO  [info] set current project to know-your-options (in build file:/home/jofla/Desktop/scala/exploration/know-your-options/)[0m
+[0m2021.12.16 02:34:48 INFO  [success] Generated .bloop/know-your-options-test.json[0m
+[0m2021.12.16 02:34:48 INFO  [success] Generated .bloop/know-your-options.json[0m
+[0m2021.12.16 02:34:48 INFO  [success] Total time: 0 s, completed Dec 16, 2021, 2:34:49 AM[0m
+[0m2021.12.16 02:34:49 INFO  time: ran 'sbt bloopInstall' in 7.81s[0m
+[0m2021.12.16 02:34:49 INFO  Disconnecting from Bloop session...[0m
+[0m2021.12.16 02:34:49 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.12.16 02:34:49 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.12.16 02:34:49 INFO  No more data in the server stdin, exiting...Attempting to connect to the build server...[0m
+No more data in the server stdin, exiting...
+
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3879409628461295511/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3879409628461295511/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3879409628461295511/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:34:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:34:49 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1695906048161409280/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1695906048161409280/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1695906048161409280/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.16 02:34:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/bsp.trace.json[0m
+[0m2021.12.16 02:34:49 INFO  time: Connected to build server in 0.17s[0m
+[0m2021.12.16 02:34:49 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.16 02:34:51 INFO  time: indexed workspace in 2.12s[0m
+[0m2021.12.16 02:34:51 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:34:51 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/User.scala[0m
+[0m2021.12.16 02:34:51 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRepository.scala[0m
+[0m2021.12.16 02:34:53 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Dec 16, 2021 2:34:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1639632891963,
+    "message": "Compiled \u0027know-your-options-test\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/home/jofla/Desktop/scala/exploration/know-your-options/?id\u003dknow-your-options-test"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///home/jofla/Desktop/scala/exploration/know-your-options/.bloop/know-your-options/bloop-bsp-clients-classes/test-classes-Metals-lVj1eFY3RiSfvO0WOBBPTQ\u003d\u003d/",
+      "analysisOut": "file:///home/jofla/Desktop/scala/exploration/know-your-options/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint$$Lambda$206/0x0000000000000000.apply(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:235)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers$$Lambda$5438/0x0000000000000000.apply(Unknown Source)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:232)
+	at scala.meta.internal.metals.Compilers$$Lambda$5437/0x0000000000000000.apply(Unknown Source)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:232)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:405)
+	at scala.meta.internal.metals.MetalsLanguageServer$$Lambda$209/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:172)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient$$Lambda$5435/0x0000000000000000.apply(Unknown Source)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:169)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:168)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient$$Lambda$5434/0x0000000000000000.apply(Unknown Source)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:168)
+	... 17 more
+
+[0m2021.12.16 02:36:47 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:36:56 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:36:56 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/main/UserRenderer.scala[0m
+[0m2021.12.16 02:37:27 WARN  no build target for: /home/jofla/Desktop/scala/exploration/know-your-options/src/test/UserRendererTest.scala[0m
+[0m2021.12.16 02:38:03 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 02:38:05 INFO  time: compiled know-your-options in 1.41s[0m
+[0m2021.12.16 02:38:05 INFO  compiling know-your-options (3 scala sources)[0m
+[0m2021.12.16 02:38:05 INFO  time: compiled know-your-options in 0.38s[0m
+[0m2021.12.16 02:38:10 INFO  compiling know-your-options (3 scala sources)[0m
+[0m2021.12.16 02:38:10 INFO  time: compiled know-your-options in 0.33s[0m
+Dec 16, 2021 2:38:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2424
+[0m2021.12.16 02:38:15 ERROR code navigation does not work for the file '/home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRepository.scala' because the SemanticDB file '/home/jofla/Desktop/scala/exploration/know-your-options/.bloop/know-your-options/bloop-bsp-clients-classes/classes-Metals-lVj1eFY3RiSfvO0WOBBPTQ==/META-INF/semanticdb/src/main/scala/UserRepository.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.12.16 02:38:18 INFO  compiling know-your-options (3 scala sources)[0m
+[0m2021.12.16 02:38:18 INFO  time: compiled know-your-options in 0.24s[0m
+[0m2021.12.16 02:38:48 INFO  compiling know-your-options (3 scala sources)[0m
+[0m2021.12.16 02:38:50 INFO  time: compiled know-your-options in 1.34s[0m
+[0m2021.12.16 02:38:57 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:38:57 INFO  time: compiled know-your-options-test in 0.15s[0m
+[0m2021.12.16 02:39:03 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:39:03 INFO  time: compiled know-your-options-test in 0.86s[0m
+[0m2021.12.16 02:39:29 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:39:29 INFO  time: compiled know-your-options-test in 89ms[0m
+[0m2021.12.16 02:39:34 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/UserRendererTest.scala:6:5: stale bloop error: not enough arguments for method assertEquals: (received: T, expected: T)(implicit pos: minitest.api.SourceLocation): Unit.
+Unspecified value parameter expected.
+    assertEquals(UserRenderer.userLabel(user))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:39:34 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/UserRendererTest.scala:6:5: stale bloop error: not enough arguments for method assertEquals: (received: T, expected: T)(implicit pos: minitest.api.SourceLocation): Unit.
+Unspecified value parameter expected.
+    assertEquals(UserRenderer.userLabel(user))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:39:50 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:39:50 INFO  time: compiled know-your-options-test in 0.76s[0m
+[0m2021.12.16 02:41:07 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 02:41:07 INFO  time: compiled know-your-options-test in 0.93s[0m
+[0m2021.12.16 02:42:22 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 02:42:22 INFO  time: compiled know-your-options in 0.69s[0m
+[0m2021.12.16 02:42:41 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:41 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:47 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:47 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:47 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:48 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:55 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:55 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:55 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:56 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:56 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:42:56 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:2:39: stale bloop warning: match may not be exhaustive.
+It would fail on the following input: None
+  def userLabel(user: User): String = user.pronouns match {
+                                      ^^^^^^^^^^^^^[0m
+[0m2021.12.16 02:43:05 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 02:43:05 INFO  time: compiled know-your-options in 0.71s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 253)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 246)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 247)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 246)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 253)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 246)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 247)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 249)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 249)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 237, 237, 249)
+[0m2021.12.16 03:27:40 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:27:40 INFO  time: compiled know-your-options in 0.71s[0m
+[0m2021.12.16 03:29:14 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 03:29:14 INFO  time: compiled know-your-options-test in 0.93s[0m
+[0m2021.12.16 03:29:18 INFO  Deduplicating compilation of know-your-options from bsp client 'Metals 0.10.9' (since 54m 28.548s)[0m
+[0m2021.12.16 03:29:18 INFO  Deduplicating compilation of know-your-options-test from bsp client 'Metals 0.10.9' (since 54m 28.559s)[0m
+[0m2021.12.16 03:29:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/dap-server.trace.json[0m
+Dec 16, 2021 3:29:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.12.16 03:29:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/dap-client.trace.json[0m
+[0m2021.12.16 03:29:21 INFO  Starting debug proxy for [UserRendererTest][0m
+Dec 16, 2021 3:29:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 16, 2021 3:29:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.12.16 03:29:25 INFO  Trying to attach to remote debuggee VM localhost:54455 .[0m
+[0m2021.12.16 03:29:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.12.16 03:29:25 INFO  Canceling debug proxy for [UserRendererTest][0m
+[0m2021.12.16 03:29:25 INFO  Closing debug server tcp://0.0.0.0:40275[0m
+[0m2021.12.16 03:30:35 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 03:30:35 INFO  time: compiled know-your-options-test in 0.97s[0m
+[0m2021.12.16 03:30:40 INFO  Deduplicating compilation of know-your-options from bsp client 'Metals 0.10.9' (since 55m 50.698s)[0m
+[0m2021.12.16 03:30:40 INFO  Deduplicating compilation of know-your-options-test from bsp client 'Metals 0.10.9' (since 55m 50.715s)[0m
+[0m2021.12.16 03:30:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/dap-server.trace.json[0m
+[0m2021.12.16 03:30:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jofla/.cache/metals/dap-client.trace.json[0m
+[0m2021.12.16 03:30:40 INFO  Starting debug proxy for [UserRendererTest][0m
+[0m2021.12.16 03:30:42 INFO  Trying to attach to remote debuggee VM localhost:58089 .[0m
+[0m2021.12.16 03:30:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.12.16 03:30:42 INFO  Canceling debug proxy for [UserRendererTest][0m
+[0m2021.12.16 03:30:42 INFO  Closing debug server tcp://0.0.0.0:35777[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 463)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 457)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 456)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 457)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 459)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 459)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala, 447, 447, 459)
+Dec 16, 2021 3:34:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5343
+[0m2021.12.16 03:34:46 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:34:46 INFO  time: compiled know-your-options in 0.69s[0m
+Dec 16, 2021 3:40:42 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 16, 2021 3:40:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.12.16 03:41:07 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:41:07 INFO  time: compiled know-your-options in 91ms[0m
+[0m2021.12.16 03:41:44 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:41:44 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:41:55 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:41:55 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:42:20 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:42:20 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:5: stale bloop error: type mismatch;
+ found   : User
+ required: String
+    user
+    ^^^^[0m
+[0m2021.12.16 03:42:23 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:42:23 INFO  time: compiled know-your-options in 0.13s[0m
+[0m2021.12.16 03:43:31 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:31 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:42 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:42 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:42 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:42 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:51 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:51 INFO  /home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/UserRenderer.scala:9:63: stale bloop error: type mismatch;
+ found   : String("")
+ required: String => String
+    user.pronouns.fold(s"${user.firstName} ${user.lastName}")("")
+                                                              ^^[0m
+[0m2021.12.16 03:43:55 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:43:55 INFO  time: compiled know-your-options in 0.65s[0m
+[0m2021.12.16 03:44:05 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 03:44:05 INFO  time: compiled know-your-options in 0.71s[0m
+[0m2021.12.16 04:04:16 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:04:16 INFO  time: compiled know-your-options in 0.45s[0m
+Dec 16, 2021 4:04:36 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 16, 2021 4:04:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 38, 38, 54)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[A]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 38, 38, 47)
+[0m2021.12.16 04:06:47 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:06:47 INFO  time: compiled know-your-options-test in 0.94s[0m
+[0m2021.12.16 04:06:55 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:06:55 INFO  time: compiled know-your-options-test in 0.44s[0m
+[0m2021.12.16 04:09:08 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:09:08 INFO  time: compiled know-your-options in 0.5s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 154, 154, 170)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 154, 154, 163)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[Int]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 154, 154, 165)
+[0m2021.12.16 04:10:25 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:10:25 INFO  time: compiled know-your-options-test in 0.1s[0m
+[0m2021.12.16 04:10:32 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:10:32 INFO  time: compiled know-your-options-test in 0.14s[0m
+[0m2021.12.16 04:10:45 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:10:45 INFO  time: compiled know-your-options-test in 0.73s[0m
+Dec 16, 2021 4:10:51 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.12.16 04:12:36 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:12:36 INFO  time: compiled know-your-options in 0.15s[0m
+[0m2021.12.16 04:12:53 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:12:53 INFO  time: compiled know-your-options in 0.63s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 297, 297, 313)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 297, 297, 306)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[Int]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 297, 297, 308)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[Int]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 297, 297, 308)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[Int]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 297, 297, 308)
+[0m2021.12.16 04:14:52 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:14:52 INFO  time: compiled know-your-options-test in 0.78s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 495)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 488)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 489)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 491)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 491)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 491)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 479, 479, 491)
+[0m2021.12.16 04:24:12 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:24:12 INFO  time: compiled know-your-options-test in 0.16s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 193)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[A]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 186)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 187)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 188)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 187)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[A]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 177, 177, 186)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 196, 196, 212)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[B]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 196, 196, 205)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[B]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 196, 196, 205)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[B]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 196, 196, 205)
+[0m2021.12.16 04:25:17 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:25:17 INFO  time: compiled know-your-options in 0.65s[0m
+[0m2021.12.16 04:25:17 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:17 INFO  time: compiled know-your-options-test in 0.15s[0m
+[0m2021.12.16 04:25:19 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:19 INFO  time: compiled know-your-options-test in 0.17s[0m
+[0m2021.12.16 04:25:34 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:25:34 INFO  time: compiled know-your-options in 0.64s[0m
+[0m2021.12.16 04:25:34 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:35 INFO  time: compiled know-your-options-test in 0.15s[0m
+[0m2021.12.16 04:25:35 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:35 INFO  time: compiled know-your-options-test in 0.15s[0m
+[0m2021.12.16 04:25:36 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:36 INFO  time: compiled know-your-options-test in 0.15s[0m
+[0m2021.12.16 04:25:39 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:25:39 INFO  time: compiled know-your-options-test in 0.17s[0m
+[0m2021.12.16 04:26:36 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:26:36 INFO  time: compiled know-your-options-test in 0.84s[0m
+[0m2021.12.16 04:29:36 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:29:36 INFO  time: compiled know-your-options in 0.12s[0m
+[0m2021.12.16 04:29:58 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:29:58 INFO  time: compiled know-your-options in 0.63s[0m
+[0m2021.12.16 04:30:12 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:30:12 INFO  time: compiled know-your-options in 0.49s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 663)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 656)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 657)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 659)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 659)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 647, 647, 659)
+[0m2021.12.16 04:33:39 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:33:39 INFO  time: compiled know-your-options-test in 86ms[0m
+[0m2021.12.16 04:34:00 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:34:00 INFO  time: compiled know-your-options-test in 0.11s[0m
+[0m2021.12.16 04:34:15 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:34:15 INFO  time: compiled know-your-options-test in 0.58s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 890)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 883)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 884)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 886)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 886)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 874, 874, 886)
+[0m2021.12.16 04:36:50 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:36:50 INFO  time: compiled know-your-options-test in 0.6s[0m
+[0m2021.12.16 04:39:24 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:39:24 INFO  time: compiled know-your-options-test in 0.59s[0m
+[0m2021.12.16 04:40:04 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:40:04 INFO  time: compiled know-your-options-test in 0.58s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 314, 314, 330)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/main/scala/Options.scala, 314, 314, 323)
+[0m2021.12.16 04:41:13 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:41:13 INFO  time: compiled know-your-options in 0.45s[0m
+[0m2021.12.16 04:42:04 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:42:04 INFO  time: compiled know-your-options-test in 0.64s[0m
+[0m2021.12.16 04:42:16 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:42:16 INFO  time: compiled know-your-options-test in 0.6s[0m
+[0m2021.12.16 04:42:27 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:42:27 INFO  time: compiled know-your-options-test in 0.63s[0m
+[0m2021.12.16 04:44:18 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:44:18 INFO  time: compiled know-your-options in 71ms[0m
+[0m2021.12.16 04:44:36 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:44:36 INFO  time: compiled know-your-options in 0.56s[0m
+[0m2021.12.16 04:44:50 INFO  compiling know-your-options (1 scala source)[0m
+[0m2021.12.16 04:44:50 INFO  time: compiled know-your-options in 0.53s[0m
+[0m2021.12.16 04:45:05 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:45:05 INFO  time: compiled know-your-options-test in 0.63s[0m
+[0m2021.12.16 04:45:41 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:45:41 INFO  time: compiled know-your-options-test in 0.67s[0m
+[0m2021.12.16 04:47:49 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:47:49 INFO  time: compiled know-your-options-test in 0.66s[0m
+[0m2021.12.16 04:48:11 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:48:11 INFO  time: compiled know-your-options-test in 0.65s[0m
+[0m2021.12.16 04:48:26 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:48:26 INFO  time: compiled know-your-options-test in 0.63s[0m
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1523)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1516)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[<error>]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1517)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1519)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1519)
+something's wrong: no file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala in Option[User]RangePosition(file:///home/jofla/Desktop/scala/exploration/know-your-options/src/test/scala/OptionsTest.scala, 1507, 1507, 1519)
+[0m2021.12.16 04:51:49 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:51:49 INFO  time: compiled know-your-options-test in 0.62s[0m
+[0m2021.12.16 04:52:38 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:52:38 INFO  time: compiled know-your-options-test in 0.64s[0m
+[0m2021.12.16 04:53:18 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:53:18 INFO  time: compiled know-your-options-test in 0.74s[0m
+[0m2021.12.16 04:53:47 INFO  compiling know-your-options-test (1 scala source)[0m
+[0m2021.12.16 04:53:47 INFO  time: compiled know-your-options-test in 0.67s[0m
