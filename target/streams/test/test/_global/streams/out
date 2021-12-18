@@ -1,7 +1,9 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(OptionsTest, minitest.runner.Framework$ModuleFingerprint$@f1fcc375, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UserRendererTest, minitest.runner.Framework$ModuleFingerprint$@f1fcc375, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(OptionsTest, minitest.runner.Framework$ModuleFingerprint$@271d7bfe, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UserRendererTest, minitest.runner.Framework$ModuleFingerprint$@271d7bfe, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UserRepositoryTest, minitest.runner.Framework$ModuleFingerprint$@271d7bfe, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for minitest not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 12, Failed 0, Errors 0, Passed 12[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 14, Failed 0, Errors 0, Passed 14[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserRepositoryTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	OptionsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UserRendererTest[0m

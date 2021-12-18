@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="potato" name="UserRendererTest" tests="4" errors="0" failures="0" skipped="0" time="0.01" timestamp="2021-12-16T04:52:01">
+<testsuite hostname="potato" name="UserRendererTest" tests="4" errors="0" failures="0" skipped="0" time="0.01" timestamp="2021-12-18T15:50:31">
                      <properties>
       <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="com.ibm.vm.bitmode" value="64"/><property name="java.vendor.url" value="https://adoptopenjdk.net/"/><property name="sun.boot.library.path" value="/home/jofla/.sdkman/candidates/java/11.0.11.j9-adpt/lib/default:/home/jofla/.sdkman/candidates/java/11.0.11.j9-adpt/lib"/><property name="sun.java.command" value="/home/jofla/.sdkman/candidates/sbt/1.5.5/bin/sbt-launch.jar test"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-04-20"/><property name="java.home" value="/home/jofla/.sdkman/candidates/java/11.0.11.j9-adpt"/><property name="ibm.signalhandling.rs" value="false"/><property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/><property name="file.separator" value="/"/><property name="line.separator" value="
-"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.java.launcher.pid" value="46781"/><property name="java.awt.fonts" value=""/><property name="java.fullversion" value="11.0.11+9
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.java.launcher.pid" value="30241"/><property name="java.awt.fonts" value=""/><property name="java.fullversion" value="11.0.11+9
 JRE 11 Linux amd64-64-Bit Compressed References 20210421_975 (JIT enabled, AOT enabled)
 OpenJ9   - b4cc246d9
 OMR      - 162e6f729
